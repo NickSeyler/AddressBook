@@ -6,3 +6,25 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #19af52, #4ff373, #38f195)
 }
+
+.profileImage{
+    height:400px;
+}
+
+@media (min-width: 767.98px) {
+    .profileImage{
+        height:200px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .profileImage {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    .profileImage {
+        height: 400px;
+    }
+}
