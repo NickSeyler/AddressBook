@@ -7,22 +7,40 @@ body {
     background: linear-gradient(to right, #19af52, #4ff373, #38f195)
 }
 
+/*374px and down*/
 .profileImage{
-    height:400px;
+    height:200px;
 }
 
+/*375px and up*/
+@media (min-width: 374.98px) {
+    .profileImage {
+        height: 200px;
+    }
+}
+
+/*576px and up*/
+@media (min-width: 575.98px) {
+    .profileImage {
+        height: 300px;
+    }
+}
+
+/*768px and up*/
 @media (min-width: 767.98px) {
     .profileImage{
         height:200px;
     }
 }
 
+/*992px and up*/
 @media (min-width: 991.98px) {
     .profileImage {
         height: 300px;
     }
 }
 
+/*1200px and up*/
 @media (min-width: 1199.98px) {
     .profileImage {
         height: 400px;
